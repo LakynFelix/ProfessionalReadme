@@ -109,7 +109,7 @@ const questions  = () => {
         type: 'checkbox',
         message: "What licenses are required with this project?",
         name: "licenses",
-        choices: ['', '', '', '', '']
+        choices: ['ISC', '', '', '', '']
     },
       {
         type: 'input',
@@ -123,7 +123,8 @@ const questions  = () => {
             return false;
           }
         },
-        },
+       
+    },
     },
 
 // TODO: Create a function to write README file
@@ -137,7 +138,7 @@ const writeFile = fileContent => {
   
         resolve({
           ok: true,
-          message: 'Readme was Created!'
+          message: 'Readme was Created Successfully!'
         });
       });
     });
