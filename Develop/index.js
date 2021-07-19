@@ -4,6 +4,7 @@ const fs = require("fs");
 const { writeFile, copyFile } = require("./utils/generateMarkdown.js");
 const inquirer = require("inquirer");
 
+
 // TODO: Create an array of questions for user input
 const questions  = () => {
     return inquirer.prompt([
