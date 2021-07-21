@@ -92,6 +92,20 @@ const questions  = () => {
           }
         }
       },
+      
+      {
+        type: 'input',
+        name: 'linkphoto',
+        message: 'Please enter your url for your image (Required)',
+        validate: linkInput => {
+          if (linkInput) {
+            return true;
+          } else {
+            console.log('You need enter a email address (Required)');
+            return false;
+          }
+        }
+        ,}
 
       {
         type: 'input',
@@ -105,12 +119,12 @@ const questions  = () => {
             return false;
           }
         }
-        },
+        ,}
       {   
         type: 'checkbox',
         message: "What licenses are required with this project?",
         name: "licenses",
-        choices: ['ISC', '', '', '', '']
+        choices: ['ISC', 'MIT ', 'GPL', 'BSD', 'None']
     },
       {
         type: 'input',
