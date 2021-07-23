@@ -105,7 +105,7 @@ const questions  = () => {
             return false;
           }
         }
-        ,}
+        },
 
       {
         type: 'input',
@@ -119,7 +119,7 @@ const questions  = () => {
             return false;
           }
         }
-        ,}
+        },
       {   
         type: 'checkbox',
         message: "What licenses are required with this project?",
@@ -140,8 +140,7 @@ const questions  = () => {
         },
        
     },
-    },
-
+},
 // TODO: Create a function to write README file
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
@@ -171,11 +170,11 @@ function init() {
         console.log(err);
     })
 }
-
+// Function call to initialize app
 // Function call to initialize app
 init();
 
-promptUser()
+promptUser(questions)
   .then(promptProject)
   .then(readmeData => {
     return generatePage(readmeData);

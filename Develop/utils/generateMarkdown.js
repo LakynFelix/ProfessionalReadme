@@ -28,16 +28,14 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license section of README
 function generateLicenseSection(license) {
-  return `# ##licenses: ${response.licenses}` 
+  return `# ##licenses: ${response.licenses}`+ 'badge'; 
   }
 
 
 // If there is no license, return an empty string
 function renderLicenseSection(license)  {
-  if (license) {
-    return `#license + badge: ${license}`
-    else {
-    return "";
+  if (license === "none") {
+     return "";
     };
 }
 
@@ -59,6 +57,7 @@ function generateMarkdown(response) {
 
 
 ${response.title} ##title:    
+
 ${response.description} ##description:    
 
 ${response.descriptionofproject} ##descriptionofproject:
@@ -76,10 +75,9 @@ ${response.linkphoto} ##linkphoto:
 ${response.linkemail}##linkemail:
 
 ${response.licenses} ##licenses:  
+
 ${response.collaborators} ##collaborators:
 `;
 }
 
 module.exports = generateMarkdown;
-
-// :trophy: 
