@@ -96,12 +96,12 @@ const questions  = () => {
       {
         type: 'input',
         name: 'linkphoto',
-        message: 'Please enter your url for your image (Required)',
+        message: 'Please enter the url for your image (Required)',
         validate: linkInput => {
           if (linkInput) {
             return true;
           } else {
-            console.log('You need enter a email address (Required)');
+            console.log('You need enter a valid URL (Required)');
             return false;
           }
         }

@@ -2,6 +2,7 @@
 // If there is no license, return an empty string
 
 const badge = 'Badge';
+const license = "licence"
 
 
 function renderLicenseBadge(license) {
@@ -18,7 +19,7 @@ function renderLicenseBadge(license) {
         return('GPL' + 'Badge');
       }
       if(license === 'None') {
-        return('');
+        return('')
       }
       
     }
@@ -36,7 +37,7 @@ function renderLicenseSection(license)  {
   if (license) {
     return `#license + badge: ${license}`
     else {
-      return ''
+    return "";
     };
 }
 
@@ -57,7 +58,7 @@ function generateMarkdown(response) {
 -[contributors](#contributors)
 
 
-
+${response.title} ##title:    
 ${response.description} ##description:    
 
 ${response.descriptionofproject} ##descriptionofproject:
