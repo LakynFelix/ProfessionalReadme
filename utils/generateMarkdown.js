@@ -27,19 +27,16 @@ function renderLicenseBadge(license) {
       "APASHE" +
       "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     );
-  }  if (license === "NONE") {
-    return "";
   }
 }
 
-
 // TODO: Create a function that returns the license section of README
 function generateLicenseSection(license) {
-  return ` ##licenses: ${response.licenses}`;
+  return `/n ##licenses: ${response.licenses}`;
 }
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license === "NONE") {
+  if (license === "none") {
     return "";
   }
 }
@@ -50,14 +47,14 @@ function generateMarkdown(response) {
 
 ## Table of Contents 
 
-* [Description](#descriptionofproject)  
+* [descriptionofproject](#descriptionofproject)  
 * [Usage](#languages)  
-* [Project](#nameofproject)  
+* [Project](#nameofproject)    
 * [Licenses](#licenses)   
 * [Contributors](#contributors)   
 
 
-
+ ##title:${response.title}
  
 ## Description: 
 
@@ -67,7 +64,7 @@ function generateMarkdown(response) {
 
 ##languages:  ${response.languages}   
 
-## Project:
+##  Project :
 
 ##nameproject: ${response.nameproject} 
 
