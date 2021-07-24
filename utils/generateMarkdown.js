@@ -50,7 +50,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(response) {
   return `# ${response.title}
 
-# Table of Content 
+## Table of Contents 
 
 [descriptionofproject](#descriptionofproject)  
 [languages](#languages)  
@@ -67,7 +67,7 @@ function generateMarkdown(response) {
 
 ##descriptionofproject: ${response.descriptionofproject}   
 
-##languages: ${response.languages}   
+##languages:  ${response.languages}   
 
 ##nameproject: ${response.nameproject} 
 
