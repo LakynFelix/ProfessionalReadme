@@ -1,13 +1,13 @@
 // TODO: Include packages needed for this application
 
 const fs = require("fs");
-const { writeFile, copyFile } = require("./utils/generateMarkdown.js");
+const markdown = require("./utils/generateMarkdown.js");
 const inquirer = require("inquirer");
 
 
 // TODO: Create an array of questions for user input
-const questions  = () => {
-    return inquirer.prompt([
+const questions  = 
+  [
     {
         type: 'input',
         name: 'title',
@@ -34,6 +34,19 @@ const questions  = () => {
           }
         }
         },
+        {
+          type: 'input',
+          name: 'nameproject',
+          message: 'What is the name of your Project? (Required)',
+          validate: nameInput => {
+            if (nameInput) {
+              return true;
+            } else {
+              console.log('You need to enter a Project name!');
+              return false;
+            }
+          }
+        },
       {
         type: 'input',
         name: 'descriptionofproject',
@@ -53,19 +66,7 @@ const questions  = () => {
         message: 'What Coding languages did you use in this project? (Check all that apply)',
         choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
       },
-      {
-        type: 'input',
-        name: 'nameproject',
-        message: 'What is the name of your Project? (Required)',
-        validate: nameInput => {
-          if (nameInput) {
-            return true;
-          } else {
-            console.log('You need to enter a Project name!');
-            return false;
-          }
-        }
-      },
+  
       {
         type: 'input',
         name: 'linkprofile',
@@ -124,7 +125,7 @@ const questions  = () => {
         type: 'checkbox',
         message: "What licenses are required with this project?",
         name: "licenses",
-        choices: ['ISC', 'MIT ', 'GPL', 'BSD', 'None']
+        choices: ['ISC', 'MIT ', 'APASHE', 'BSD', 'None']
     },
       {
         type: 'input',
@@ -140,7 +141,7 @@ const questions  = () => {
         },
        
     },
-},
+    ];
 // TODO: Create a function to write README file
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
@@ -160,29 +161,31 @@ const writeFile = fileContent => {
 
 // TODO: Create a function to initialize app 
 
+
 function init() {
     inquirer.prompt(questions)
-    .then((inquirerResponse, data) => {   
+    .then((inquirerResponse) => { 
+      const response = markdown(inquirerResponse);  
         console.log("Creating a new ReadMe.md");
-        fs.writeFileSync("ReadMe.md", inquirerResponse, data);
+        console.log(response);
+        fs.writeFileSync("ReadMe.md", response);
     })
     .catch((err) => {
         console.log(err);
     })
 }
 // Function call to initialize app
-// Function call to initialize app
 init();
 
-promptUser(questions)
-  .then(promptProject)
-  .then(readmeData => {
-    return generatePage(readmeData);
-  })
-  .then(writeFileResponse => {
-    console.log(writeFileResponse);
-    return copyFile();
-  })
-  .catch(err => {
-    console.log(err);
-  });
+// promptUser(questions)
+//   .then(promptProject)
+//   .then(readmeData => {
+//     return generatePage(readmeData);
+//   })
+//   .then(writeFileResponse => {
+//     console.log(writeFileResponse);
+//     return copyFile();
+//   })
+//   .catch(err => {
+//     console.log(err);
+//   });
