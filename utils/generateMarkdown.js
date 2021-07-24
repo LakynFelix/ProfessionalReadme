@@ -26,19 +26,18 @@ function renderLicenseBadge(license) {
     return (
       "APASHE" +
       "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
-   ) ;
-}
+    );
+  }
 }
 
 // TODO: Create a function that returns the license section of README
 function generateLicenseSection(license) {
-  return `# ##licenses: ${response.licenses}`;
+  return `/n ##licenses: ${response.licenses}`;
 }
-
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "none") {
-    return '';
+    return "";
   }
 }
 
@@ -48,35 +47,47 @@ function generateMarkdown(response) {
 
 ## Table of Contents 
 
-[descriptionofproject](#descriptionofproject)  
-[languages](#languages)  
-[nameofproject](#nameofproject)  
-[linkprofile](#linkprofile)  
-[link](#link)  
-[linkphoto](#linkphoto)  
-[linkemail](#linkemail)  
-[licenses](#licenses)   
-[contributors](#contributors)   
+* [descriptionofproject](#descriptionofproject)  
+* [languages](#languages)  
+* [nameofproject](#nameofproject)  
+* [linkprofile](#linkprofile)  
+* [link](#link)  
+* [linkphoto](#linkphoto)  
+* [linkemail](#linkemail)  
+* [licenses](#licenses)   
+* [contributors](#contributors)   
+
 
  ##title:${response.title}
  
+## Description: 
 
 ##descriptionofproject: ${response.descriptionofproject}   
 
+## Usage: 
+
 ##languages:  ${response.languages}   
+
+##Project :
 
 ##nameproject: ${response.nameproject} 
 
+
 ##linkprofile: ${response.linkprofile}   
+
 
 ##link: ${response.link} 
 
+ 
 ##linkphoto: ${response.linkphoto}   
+
 
 ##linkemail: ${response.linkemail}  
 
+## License: 
  ##licenses: ${renderLicenseBadge(response.licenses)}  
 
+ ## Collaborators:
 ##collaborators: ${response.collaborators}   
 `;
 }
