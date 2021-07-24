@@ -1,9 +1,9 @@
-# Readme,= generator
+# flkjdflsd
 
 ## Table of Contents 
 
-* [description](#descriptionofproject)  
-* [Usage](#languages)  
+* [Description](#descriptionofproject)  
+* [Languages](#languages)  
 * [Project](#nameofproject)  
 * [Licenses](#licenses)   
 * [Contributors](#contributors)   
@@ -13,30 +13,30 @@
  
 ## Description: 
 
-##descriptionofproject: kdjf   
+##descriptionofproject: dfljksdf   
 
 ## Usage: 
 
-##languages:  JavaScript,HTML,CSS,ES6,jQuery,Bootstrap   
+##languages:  HTML,CSS,ES6,jQuery,Node   
 
 ## Project:
 
-##nameproject: fkdhjf 
+##nameproject: sldkfjsdklf 
 
 
-##linkprofile: fdkjldsjlksjds   
+##linkprofile: dfkljd   
 
 
-##link: fsdkfjsd 
+##link: dssd;lfsk 
 
  
-##linkphoto: sdlkfjslf   
+##linkphoto: dsfskdjfls   
 
 
-##linkemail: sdfsfs  
+##linkemail: sdflks  
 
 ## License: 
  ##licenses: undefined  
 
  ## Collaborators:
-##collaborators: gjhgkf   
+##collaborators: dfkdsf   
