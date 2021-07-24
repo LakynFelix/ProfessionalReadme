@@ -135,7 +135,7 @@ const questions = [
     type: "checkbox",
     message: "What licenses are required with this project?",
     name: "licenses",
-    choices: ["ISC", "MIT ", "APASHE", "BSD"],
+    choices: ["ISC", "MIT ", "APASHE", "BSD" ,"NONE"],
   },
   {
     type: "input",
