@@ -50,18 +50,14 @@ function generateMarkdown(response) {
 
 ## Table of Contents 
 
-* [descriptionofproject](#descriptionofproject)  
-* [languages](#languages)  
-* [nameofproject](#nameofproject)  
-* [linkprofile](#linkprofile)  
-* [link](#link)  
-* [linkphoto](#linkphoto)  
-* [linkemail](#linkemail)  
-* [licenses](#licenses)   
-* [contributors](#contributors)   
+* [Description](#descriptionofproject)  
+* [Usage](#languages)  
+* [Project](#nameofproject)  
+* [Licenses](#licenses)   
+* [Contributors](#contributors)   
 
 
- ##title:${response.title}
+
  
 ## Description: 
 
@@ -71,7 +67,7 @@ function generateMarkdown(response) {
 
 ##languages:  ${response.languages}   
 
-##Project :
+## Project:
 
 ##nameproject: ${response.nameproject} 
 

@@ -1,43 +1,42 @@
-# fghf
+# Readme,= generator
 
 ## Table of Contents 
 
-[descriptionofproject](#descriptionofproject)  
-[languages](#languages)  
-[nameofproject](#nameofproject)  
-[linkprofile](#linkprofile)  
-[link](#link)  
-[linkphoto](#linkphoto)  
-[linkemail](#linkemail)  
-[licenses](#licenses)   
-[contributors](#contributors)   
+* [description](#descriptionofproject)  
+* [Usage](#languages)  
+* [Project](#nameofproject)  
+* [Licenses](#licenses)   
+* [Contributors](#contributors)   
 
 
- ##title:fghf
+
  
+## Description: 
 
-##descriptionofproject: fsdfs   
+##descriptionofproject: kdjf   
 
+## Usage: 
 
-##languages:  JavaScript   
+##languages:  JavaScript,HTML,CSS,ES6,jQuery,Bootstrap   
 
+## Project:
 
-##nameproject: kfsldf 
-
-
-##linkprofile: l   
-
-
-##link: gdd 
+##nameproject: fkdhjf 
 
 
-##linkphoto:  dd   
+##linkprofile: fdkjldsjlksjds   
 
 
-##linkemail: dd  
+##link: fsdkfjsd 
+
+ 
+##linkphoto: sdlkfjslf   
 
 
+##linkemail: sdfsfs  
+
+## License: 
  ##licenses: undefined  
 
- 
-##collaborators: sd   
+ ## Collaborators:
+##collaborators: gjhgkf   
