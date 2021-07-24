@@ -42,22 +42,21 @@ function generateMarkdown(response) {
   return `# ${response.title}
 
 # Table of Content 
-[descriptionofproject](#descriptionofproject)  
-[languages](#languages)  
-[nameofproject](#nameofproject)  
+[Descriptionofproject](#descriptionofproject)  
+[Languages](#languages)  
+[Nameofproject](#nameofproject)  
 [linkprofile](#linkprofile)  
 [link](#link)  
 [linkphoto](#linkphoto)  
 [linkemail](#linkemail)  
 [licenses](#licenses)   
-[contributors](#contributors)   
+[collabarators](#collabarators)   
 
- ##title:    
-${response.title}
+ ##title: ${response.title}
+   
 
-##description: ${response.description}   
+##descriptionofproject: ${response.descriptionofproject}   
 
- ##descriptionofproject: ${response.descriptionofproject}   
 ##languages: ${response.languages}   
 
 ##nameproject: ${response.nameproject} 

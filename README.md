@@ -1,4 +1,4 @@
-# Professional Readme generator 
+# ReadMe Generator
 
 # Table of Content 
 [descriptionofproject](#descriptionofproject)  
@@ -11,23 +11,22 @@
 [licenses](#licenses)   
 [contributors](#contributors)   
 
- ##title:    
-Professional Readme generator 
+ ##title: ReadMe Generator
 
-##description: Description usage profile email    
+##description:  Descriptionofproject, Languages, nameof project, link to profile, link to project, link to photo, email, licences, collaborators    
 
- ##descriptionofproject: Random generates a readme from promts taken from the user   
-##languages:    
+ ##descriptionofproject: using node.js we created and generated a random Readme.md File from all the input taken from the users.   
+##languages: Node   
 
-##nameproject: Professional Readme 
+##nameproject:  ProfessionalReadme 
 
-##linkprofile: https://github.com/LakynFelix/   
+##linkprofile:  https://github.com/LakynFelix   
 
-##link: https://github.com/LakynFelix/ProfessionalReadme 
+##link:  https://github.com/LakynFelix/ProfessionalReadme 
 
-##linkphoto: https://raw.githubusercontent.com/LakynFelix/myportfolio/main/images/My%20Profile.png   
+##linkphoto: c   
 
-##linkemail: Lakynmphotography@hotmail.com  
+##linkemail: Lakynmphotography@hotmail.con  
  ##licenses: undefined  
 
 ##collaborators: None   
