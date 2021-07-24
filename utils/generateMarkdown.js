@@ -3,26 +3,35 @@
 
 function renderLicenseBadge(license) {
   if (license === "MIT") {
-    return "MIT License" + '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
-
-    
+    return (
+      "MIT License" +
+      "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    );
   }
 
   if (license === "ISC") {
-    return "ISC License" + '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)';
+    return (
+      "ISC License" +
+      "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
+    );
   }
 
   if (license === "BSD") {
-    return "BSD license" + '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
+    return (
+      "BSD license" +
+      "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    );
   }
   if (license === "APASHE") {
-    return "APASHE" + '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+    return (
+      "APASHE" +
+      "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    );
   }
   if (license === "None") {
     return "";
   }
 }
-
 
 // TODO: Create a function that returns the license section of README
 function generateLicenseSection(license) {
@@ -32,28 +41,29 @@ function generateLicenseSection(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "none") {
-    return "";
+    console.log(license)
+    return "…"
   }
 }
-
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response) {
   return `# ${response.title}
 
 # Table of Content 
-[Descriptionofproject](#descriptionofproject)  
-[Languages](#languages)  
-[Nameofproject](#nameofproject)  
+
+[descriptionofproject](#descriptionofproject)  
+[languages](#languages)  
+[nameofproject](#nameofproject)  
 [linkprofile](#linkprofile)  
 [link](#link)  
 [linkphoto](#linkphoto)  
 [linkemail](#linkemail)  
 [licenses](#licenses)   
-[collabarators](#collabarators)   
+[contributors](#contributors)   
 
- ##title: ${response.title}
-   
+ ##title:${response.title}
+ 
 
 ##descriptionofproject: ${response.descriptionofproject}   
 
@@ -68,6 +78,7 @@ function generateMarkdown(response) {
 ##linkphoto: ${response.linkphoto}   
 
 ##linkemail: ${response.linkemail}  
+
  ##licenses: ${renderLicenseBadge(response.licenses)}  
 
 ##collaborators: ${response.collaborators}   

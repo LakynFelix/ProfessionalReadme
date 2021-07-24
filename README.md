@@ -1,32 +1,34 @@
-# ReadMe Generator
+# Professional Readme generator
 
 # Table of Content 
-[descriptionofproject](#descriptionofproject)  
-[languages](#languages)  
-[nameofproject](#nameofproject)  
-[linkprofile](#linkprofile)  
-[link](#link)  
-[linkphoto](#linkphoto)  
-[linkemail](#linkemail)  
-[licenses](#licenses)   
-[contributors](#contributors)   
 
- ##title: ReadMe Generator
+1-[descriptionofproject](#descriptionofproject)  
+2-[languages](#languages)  
+3-[nameofproject](#nameofproject)  
+4-[linkprofile](#linkprofile)  
+5-[link](#link)  
+6-[linkphoto](#linkphoto)  
+7-[linkemail](#linkemail)  
+8-[licenses](#licenses)   
+9-[collaborators](#collaborators)   
 
-##description:  Descriptionofproject, Languages, nameof project, link to profile, link to project, link to photo, email, licences, collaborators    
+ ##title:Professional Readme generator
+ 
 
- ##descriptionofproject: using node.js we created and generated a random Readme.md File from all the input taken from the users.   
+##descriptionofproject: using node.js we created and generated a random Readme.md File from all the input taken from the users.   
+
 ##languages: Node   
 
-##nameproject:  ProfessionalReadme 
+##nameproject: ProfessionalReadme 
 
-##linkprofile:  https://github.com/LakynFelix   
+##linkprofile: https://github.com/LakynFelix   
 
-##link:  https://github.com/LakynFelix/ProfessionalReadme 
+##link: https://github.com/LakynFelix/ProfessionalReadme 
 
-##linkphoto: c   
+##linkphoto: url    
 
-##linkemail: Lakynmphotography@hotmail.con  
+##linkemail: lakynmphotography@hotmail.com  
+
  ##licenses: undefined  
 
-##collaborators: None   
+##collaborators: no   
