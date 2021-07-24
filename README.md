@@ -1,6 +1,6 @@
-# Professional Readme Generator
+#     ReadMe Generator
 
-# Table of Content 
+## Table of Contents 
 
 [descriptionofproject](#descriptionofproject)  
 [languages](#languages)  
@@ -12,12 +12,12 @@
 [licenses](#licenses)   
 [contributors](#contributors)   
 
- ##title:Professional Readme Generator
+ ##title:    ReadMe Generator
  
 
-##descriptionofproject:   using node.js we created and generated a random Readme.md File from all the input taken from the users.   
+##descriptionofproject:  using node.js we created and generated a random Readme.md File from all the input taken from the users.   
 
-##languages: Node   
+##languages:  Node   
 
 ##nameproject: ProfessionalReadme 
 
@@ -25,10 +25,10 @@
 
 ##link: https://github.com/LakynFelix/ProfessionalReadme 
 
-##linkphoto: dsd   
+##linkphoto: sds   
 
-##linkemail: lakynmphotography@HOtmail.com  
+##linkemail: lakynmphotography@hotmail.com  
 
  ##licenses: undefined  
 
-##collaborators: no   
+##collaborators: none   
