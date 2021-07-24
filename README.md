@@ -2,7 +2,7 @@
 
 ## Table of Contents 
 
-* [descriptionofproject](#descriptionofproject)  
+* [Description](#descriptionofproject)  
 * [Usage](#languages)  
 * [Project](#nameofproject)    
 * [Licenses](#licenses)   
