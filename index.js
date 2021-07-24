@@ -125,7 +125,7 @@ const questions  =
         type: 'checkbox',
         message: "What licenses are required with this project?",
         name: "licenses",
-        choices: ['ISC', 'MIT ', 'APASHE', 'BSD', 'None']
+        choices: ['ISC', 'MIT ', 'APASHE', 'BSD']
     },
       {
         type: 'input',
@@ -177,15 +177,3 @@ function init() {
 // Function call to initialize app
 init();
 
-// promptUser(questions)
-//   .then(promptProject)
-//   .then(readmeData => {
-//     return generatePage(readmeData);
-//   })
-//   .then(writeFileResponse => {
-//     console.log(writeFileResponse);
-//     return copyFile();
-//   })
-//   .catch(err => {
-//     console.log(err);
-//   });

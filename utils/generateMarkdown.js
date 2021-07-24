@@ -26,11 +26,8 @@ function renderLicenseBadge(license) {
     return (
       "APASHE" +
       "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
-    );
-  }
-  if (license === "None") {
-    return "";
-  }
+   ) ;
+}
 }
 
 // TODO: Create a function that returns the license section of README
@@ -41,8 +38,7 @@ function generateLicenseSection(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "none") {
-    console.log(license)
-    return "…"
+    return '';
   }
 }
 
