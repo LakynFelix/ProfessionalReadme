@@ -2,29 +2,29 @@
 // If there is no license, return an empty string
 
 function renderLicenseBadge(license) {
-  if (license === "MIT") {
+  if (license == "MIT") {
     return (
       "MIT License" +
       "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     );
   }
 
-  if (license === "ISC") {
+  if (license == "ISC") {
     return (
       "ISC License" +
       "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
     );
   }
 
-  if (license === "BSD") {
+  if (license == "BSD") {
     return (
-      "BSD license" +
+      " BSD Licensse" +
       "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
     );
   }
-  if (license === "APASHE") {
+  if (license == "APASHE") {
     return (
-      "APASHE" +
+      " APASHE" +
       "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     );
   }
@@ -46,48 +46,38 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response) {
+  renderLicenseBadge(response.licenses);
   return `# ${response.title}
-
 ## Table of Contents 
-
 * [Description](#descriptionofproject)  
 * [Usage](#languages)  
 * [Project](#nameofproject)    
 * [Licenses](#licenses)   
-* [Contributors](#contributors)   
+* [Collaborators](#collaborators)   
+ 
 
+## ${response.title} 
 
- ##title:${response.title}
  
 ## Description: 
-
-##descriptionofproject: ${response.descriptionofproject}   
+${response.descriptionofproject}   
 
 ## Usage: 
-
-##languages:  ${response.languages}   
+  ${response.languages}   
 
 ##  Project :
+ ${response.nameproject} 
+ ${response.linkprofile}   
+ ${response.link}
+ ${response.linkphoto}   
+ ${response.linkemail}  
+## License:  
 
-##nameproject: ${response.nameproject} 
-
-
-##linkprofile: ${response.linkprofile}   
-
-
-##link: ${response.link} 
-
+ ${renderLicenseBadge(response.licenses)}
+  
  
-##linkphoto: ${response.linkphoto}   
-
-
-##linkemail: ${response.linkemail}  
-
-## License: 
- ##licenses: ${renderLicenseBadge(response.licenses)}  
-
- ## Collaborators:
-##collaborators: ${response.collaborators}   
+  ## Collaborators:
+ ${response.collaborators}   
 `;
 }
 
