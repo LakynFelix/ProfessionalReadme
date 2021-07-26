@@ -1,4 +1,4 @@
-# fkdjfhkdhf
+# fsdlkjdf
 ## Table of Contents 
 * [Description](#descriptionofproject)  
 * [Usage](#languages)  
@@ -7,24 +7,25 @@
 * [Collaborators](#collaborators)   
  
 
-## fkdjfhkdhf 
+## fsdlkjdf 
 
  
 ## Description: 
-dfkhd   
+dkfjsdj   
 
 ## Usage: 
-     
+  JavaScript   
 
 ##  Project :
- dfldfds 
- fg   
- d
- d   
- d  
+ dslfjsd 
+     
+    
+ sd 
+## preview of project
+ https://raw.githubusercontent.com/LakynFelix/myportfolio/main/images/My%20Profile.png
+
 ## License:  
- undefined
+undefined
   
- 
-  ## Collaborators:
- dd   
+ ## Collaborators:
+  fddf   

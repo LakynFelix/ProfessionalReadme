@@ -11,20 +11,18 @@ function renderLicenseBadge(license) {
 
   if (license == "ISC") {
     return (
-      "ISC License" +
+     
       "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
     );
   }
 
   if (license == "BSD") {
     return (
-      " BSD Licensse" +
       "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
     );
   }
   if (license == "APASHE") {
     return (
-      " APASHE" +
       "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     );
   }
@@ -65,18 +63,19 @@ ${response.descriptionofproject}
 ## Usage: 
   ${response.languages}   
 
-##  Project :
+##  Project:
  ${response.nameproject} 
  ${response.linkprofile}   
- ${response.link}
- ${response.linkphoto}   
- ${response.linkemail}  
-## License:  
-
- ${renderLicenseBadge(response.licenses)}
-  
+ ${response.link}  
+ ${response.linkemail} 
  
-  ## Collaborators:
+## preview of project
+${response.linkphoto}
+
+## License:  
+${renderLicenseBadge(response.licenses)}
+  
+ ## Collaborators:
  ${response.collaborators}   
 `;
 }
