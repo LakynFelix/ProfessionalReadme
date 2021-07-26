@@ -1,4 +1,4 @@
-# fsdlkjdf
+#  Professional ReadMe Generator
 ## Table of Contents 
 * [Description](#descriptionofproject)  
 * [Usage](#languages)  
@@ -7,25 +7,26 @@
 * [Collaborators](#collaborators)   
  
 
-## fsdlkjdf 
+##  Professional ReadMe Generator 
 
  
 ## Description: 
-dkfjsdj   
+Using node.js we took input taken from the user and generated a random Readme.md File with all the info taken.   
 
 ## Usage: 
-  JavaScript   
+  JavaScript,Node   
 
-##  Project :
- dslfjsd 
-     
-    
- sd 
-## preview of project
- https://raw.githubusercontent.com/LakynFelix/myportfolio/main/images/My%20Profile.png
+##  Project:
+  ProfessionalReadme 
+    https://github.com/LakynFelix   
+  https://github.com/LakynFelix/ProfessionalReadme  
+  lakynmphotography@hotmail.com 
+
+## Preview of project
+https://raw.githubusercontent.com/LakynFelix/myportfolio/main/images/My%20Profile.png
 
 ## License:  
-undefined
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
   
  ## Collaborators:
-  fddf   
+ None   

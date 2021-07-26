@@ -10,21 +10,14 @@ function renderLicenseBadge(license) {
   }
 
   if (license == "ISC") {
-    return (
-     
-      "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
-    );
+    return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
   }
 
   if (license == "BSD") {
-    return (
-      "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
-    );
+    return "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
   }
   if (license == "APASHE") {
-    return (
-      "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
-    );
+    return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
   }
   if (license === "NONE") {
     return "";
@@ -63,11 +56,11 @@ ${response.descriptionofproject}
 ## Usage: 
   ${response.languages}   
 
-##  Project:
- ${response.nameproject} 
- ${response.linkprofile}   
- ${response.link}  
- ${response.linkemail} 
+
+##  ${response.nameproject} 
+##  GitHub Profile: ${response.linkprofile}   
+##  GitHub REPO: ${response.link}  
+## EMAIL: ${response.linkemail} 
 
 ## Preview of project
 ${response.linkphoto}
