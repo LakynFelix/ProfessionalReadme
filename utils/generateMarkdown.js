@@ -59,8 +59,8 @@ ${response.descriptionofproject}
 
 ##  ${response.nameproject} 
 ## GitHub Profile: ${response.linkprofile}   
-## GitHub REPO: ${response.link}  
-## EMAIL: ${response.linkemail} 
+## GitHub Repo: ${response.link}  
+## Email: ${response.linkemail} 
 
 ## Preview of project
 ${response.linkphoto}
