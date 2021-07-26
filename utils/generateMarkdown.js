@@ -62,7 +62,7 @@ ${response.descriptionofproject}
 ## GitHub Repo: ${response.link}  
 ## Email: ${response.linkemail} 
 
-## Preview of project
+## Preview of Project
 ${response.linkphoto}
 
 # License:  

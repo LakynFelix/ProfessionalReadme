@@ -1,4 +1,4 @@
-# Professional Readme Generator
+#  Professional Readme Generator
 # Table of Contents 
 * [Description](#descriptionofproject)  
 * [Usage](#languages)  
@@ -7,7 +7,7 @@
 * [Collaborators](#collaborators)   
  
 
-# Professional Readme Generator 
+#  Professional Readme Generator 
 
  
 # Description: 
@@ -17,16 +17,16 @@ Using node we took in information from the user to generate a random readme.md f
   JavaScript,Node   
 
 
-##   Professional Readme 
+##  Professional Readme 
 ## GitHub Profile: https://github.com/LakynFelix   
 ## GitHub Repo:  https://github.com/LakynFelix/ProfessionalReadme  
 ## Email: Lakynmphotography@hotmail.com 
 
 ## Preview of project
-https://github.com/LakynFelix/ProfessionalReadme/blob/main/images/Professionalreadme.JPG
+https://github.com/LakynFelix/ProfessionalReadme/blob/main/images/Professionalreadme.JPG ,
 
 # License:  
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
   
  # Collaborators:
- None   
+ NONE   
