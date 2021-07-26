@@ -68,8 +68,8 @@ ${response.descriptionofproject}
  ${response.linkprofile}   
  ${response.link}  
  ${response.linkemail} 
- 
-## preview of project
+
+## Preview of project
 ${response.linkphoto}
 
 ## License:  
