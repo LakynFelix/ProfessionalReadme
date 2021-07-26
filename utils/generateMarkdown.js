@@ -39,7 +39,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(response) {
   renderLicenseBadge(response.licenses);
   return `# ${response.title}
-## Table of Contents 
+# Table of Contents 
 * [Description](#descriptionofproject)  
 * [Usage](#languages)  
 * [Project](#nameofproject)    
@@ -47,28 +47,28 @@ function generateMarkdown(response) {
 * [Collaborators](#collaborators)   
  
 
-## ${response.title} 
+# ${response.title} 
 
  
-## Description: 
+# Description: 
 ${response.descriptionofproject}   
 
-## Usage: 
+# Usage: 
   ${response.languages}   
 
 
 ##  ${response.nameproject} 
-##  GitHub Profile: ${response.linkprofile}   
-##  GitHub REPO: ${response.link}  
+## GitHub Profile: ${response.linkprofile}   
+## GitHub REPO: ${response.link}  
 ## EMAIL: ${response.linkemail} 
 
 ## Preview of project
 ${response.linkphoto}
 
-## License:  
+# License:  
 ${renderLicenseBadge(response.licenses)}
   
- ## Collaborators:
+ # Collaborators:
  ${response.collaborators}   
 `;
 }
